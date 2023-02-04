@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../css/MAIN.CSS">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title>login</title>
+    <style>
+        ::placeholder{
+            font-weight: 900;
+            color: white !important;
+            
+        }
+        @media(max-width:1200px){
+        .g1{
+           
+            padding-right: -100px;
+            padding-left: -100px;
+            margin: -100px;
+          ;
+            
+        }
+        .g3{
+            margin-top: 30px;
+        }
+        
+       
+    }
+        @media(min-width:1201px){
+            .g1{
+                width: 50%;
+                margin: auto;
+            }
+       
+    
+
+}
+        .form-horizontal{
+    display:block;
+    width:50%;
+    margin:0 auto;
+}
+
+        body{
+            background-color: #a1c4fd;
+            overflow-x: hidden;
+            background-size: cover;
+            font-family: 'Poppins', sans-serif;
+
+            
+        }
+        .center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;  
+}
+.face{transition: all .2s ease-in-out;}
+:hover.face{
+    transform: scale(1.5);
+}
+    </style>
+</head>
+<body>
+    <div class="container text-black">
+        <form class="form p-5 m-auto center w-50 g2 text-black">
+          <div class=" mt-5 px-5  pt-5  text-white g1 opacity-100 text-black border-1" style="background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); "><input class="form-control g3 opacity-100 text-light  bg-transparent border-0 border-bottom" type="text" placeholder="username">
+         <span class="text-dark fw-bold">must contain symbols</span> 
+          <input class="form-control  border-0 border-bottom bg-transparent" type="password" placeholder="password">
+          <span class="text-dark fw-bold">must be complicated</span> 
+          <button type="submit" class="btn btn-dark  form-control rounded-pill g2">sign in</button>
+          <div class="mt-3 pb-3 text-black fw-bold"><span class="me-2">or login using: </span>      <a  target="_blank" href="https://www.google.com/"><img class="face" src="../imgs/search.png" style="height: 30px; width: 30px;" alt=""></a> <a target="_blank"  href="https://www.facebook.com/"><img class="face" src="../imgs/facebook (1).png" style="height: 30px; width: 30px;" alt=""></a> </div>
+        </div>
+
+
+       
+        </div>
+         <script src="../js/bootstrap.bundle.min.js"></script>
+      </div>
+      </form>
+    
+</body>
+</html>
